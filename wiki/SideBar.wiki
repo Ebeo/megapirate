@@ -1,0 +1,21 @@
+= MegaPirate Wiki =
+
+* Introduction
+ * What do I Need?
+  * Electronics
+  * Frame
+  * Motors, ESC's and Propellers
+  * Radio and Battery
+ * ----
+ * *Hardware*
+ * Choosing my hardware
+  * ...
+  * ...
+  * ...
+  * ----
+ * *Softwares*
+ * downloads
+  * setup
+  *...
+ * ----
+ 
