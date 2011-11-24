@@ -1,8 +1,6 @@
-
 = Introduction =
 
-You will find here some setups using different hardware with !MegaPirate's code.
-
+You will find here some informations about how to set up your multicopter with !MegaPirate code, depending on your hardware.
 
 = Information =
 
