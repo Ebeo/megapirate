@@ -2,7 +2,7 @@
 
  * [Introduction]
  * [Glossary]
-  * ----
+ * ----
  * *Hardware*
  * Choosing my hardware
   * ...
