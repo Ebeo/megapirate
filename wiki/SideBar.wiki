@@ -2,10 +2,10 @@
 
 * Introduction
  * What do I Need?
-  * Electronics
-  * Frame
-  * Motors, ESC's and Propellers
-  * Radio and Battery
+  * [Electronics]
+  * [Frame]
+  * [Propulsion Motors, ESC's and Propellers]
+  * [Radio Radio and Battery]
  * ----
  * *Hardware*
  * Choosing my hardware
