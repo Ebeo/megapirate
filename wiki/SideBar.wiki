@@ -1,6 +1,6 @@
 = !MegaPirate Wiki =
 
- * Introduction
+ * [Introduction]
  * [Glossary]
   * ----
  * *Hardware*
