@@ -2,6 +2,8 @@
 
 You will find here some informations about how to set up your multicopter with !MegaPirate code, depending on your hardware.
 
-= Information =
+Here's the [http://www.rcgroups.com/forums/showthread.php?t=1382503 thread] on RCGroups speaking about !MegaPirate code and stuff.
+
+== Information ==
 
 This wiki is under construction.
