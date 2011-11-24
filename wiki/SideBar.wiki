@@ -1,9 +1,9 @@
 = !MegaPirate Wiki =
 
-* Introduction
-  * [Glossary]
- * *Hardware*
+ * Introduction
+ * [Glossary]
   * ----
+ * *Hardware*
  * Choosing my hardware
   * ...
   * ...
