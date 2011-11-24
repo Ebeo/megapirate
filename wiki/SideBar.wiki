@@ -1,13 +1,9 @@
 = MegaPirate Wiki =
 
 * Introduction
- * What do I Need?
-  * [Electronics]
-  * [Frame]
-  * [Propulsion Motors, ESC's and Propellers]
-  * [Radio Radio and Battery]
- * ----
+  * Glossary
  * *Hardware*
+  * ----
  * Choosing my hardware
   * ...
   * ...
