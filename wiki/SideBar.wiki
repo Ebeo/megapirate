@@ -1,4 +1,4 @@
-= MegaPirate Wiki =
+= !MegaPirate Wiki =
 
 * Introduction
   * [Glossary]
