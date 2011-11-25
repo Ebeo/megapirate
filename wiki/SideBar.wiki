@@ -6,7 +6,7 @@
  * *Hardware*
  * [Controller]
  * [IMU IMU / Sensor board]
- * Breakout Board
+ * [BOB Breakout Board]
  * ...
  * ----
  * *Softwares*
