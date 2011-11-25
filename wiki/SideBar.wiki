@@ -12,7 +12,7 @@
    * [FlyAllinone Flyduino and Allinone]
    * [Seeeduino]
    * Black Vortex
-   * [Motors Motors layout]
+ * [Motors Motors layout]
  * ----
  * *Softwares*
  * [SoftDescription Description]
