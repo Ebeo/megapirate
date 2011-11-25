@@ -23,6 +23,7 @@
    * PID tweeking
  * ----
  * *Add-ons*
+ * GPS
  * Telemetry
  * Sonar
  * Camera stabilization
