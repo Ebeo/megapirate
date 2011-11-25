@@ -13,8 +13,12 @@ http://megapirate.googlecode.com/svn/wiki/Images/setup2.PNG
 
 http://megapirate.googlecode.com/svn/wiki/Images/setup3.PNG
 
+You can find in the [http://code.google.com/p/arducopter/wiki/AC2_ModeSwitch ArduCopter2 wiki] a good explanations of the different modes.
+
 http://megapirate.googlecode.com/svn/wiki/Images/setup4.PNG
 
 http://megapirate.googlecode.com/svn/wiki/Images/setup5.PNG
 
 http://megapirate.googlecode.com/svn/wiki/Images/setup6.PNG
+
+At the end of the [http://code.google.com/p/arducopter/wiki/AC2_ModeSwitch ArduCopter2 flight modes explanation page], you will find links to tutorial showing you how to make mixing on your transmitter and having the possibility to use up to 6 flight modes.
