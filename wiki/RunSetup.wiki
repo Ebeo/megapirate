@@ -17,8 +17,14 @@ You can find in the [http://code.google.com/p/arducopter/wiki/AC2_ModeSwitch Ard
 
 http://megapirate.googlecode.com/svn/wiki/Images/setup4.PNG
 
+By cliking on the [http://magnetic-declination.com/ Declination website link] on this tab, you will find your declination. In this example, it's 0'51 east, so enter 0.51 in the field.
+
+
 http://megapirate.googlecode.com/svn/wiki/Images/setup5.PNG
 
 http://megapirate.googlecode.com/svn/wiki/Images/setup6.PNG
 
+  -----
+
+== up to 6 flight modes in your transmitter ==
 At the end of the [http://code.google.com/p/arducopter/wiki/AC2_ModeSwitch ArduCopter2 flight modes explanation page], you will find links to tutorial showing you how to make mixing on your transmitter and having the possibility to use up to 6 flight modes.
