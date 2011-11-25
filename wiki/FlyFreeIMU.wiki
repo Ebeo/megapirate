@@ -1,6 +1,8 @@
 = Flyduino and FreeIMU =
 
-Here's the connection diagram of the Flyduino when used with !MegaPirate code.
+Here's the connection diagram of the Flyduino when used with !MegaPirate code. You will find here all the pinout description and where to connect what.
+
+For FreeIMU 0.3.5 BMP and FreeIMU 0.3.5 MS, connections are the same.
 
 http://megapirate.googlecode.com/svn/wiki/Images/final_flyduino_pinout_13-06-11.jpg
 
