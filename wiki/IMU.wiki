@@ -1,13 +1,13 @@
 = IMU / Sensor boards =
 
- * FreeIMU 0.3.5 BMP: it's a sensor board with 
+ * FreeIMU 0.3.5 BMP: it's a sensor board with http://megapirate.googlecode.com/svn/wiki/Images/FreeIMU_0_3_5BMP.jpg 
    * ITG3205 3-axis gyro 
    * BMA180 3-axis accelerometer
    * HMC5883L 3-axis magnetometer
    * BMP085 absolute pressure sensor
      You will find it at the [http://viacopter.eu/index.php Viacopter shop].
 
- * FreeIMU 0.3.5 MS: it's a sensor board with
+ * FreeIMU 0.3.5 MS: it's a sensor board with http://megapirate.googlecode.com/svn/wiki/Images/FreeIMU_0_3_5MS.jpg
    * ITG3200 3-axis gyro
    * BMA 180 3-axis accelerometer
    * HMC5883L 3-axis compass
