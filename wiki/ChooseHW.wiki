@@ -1,0 +1,50 @@
+= Hardware =
+
+There is two type of hardware:
+
+ * Controllers
+ * IMU / Sensor boards
+
+
+== Controllers ==
+
+ * Flyduino: 
+it's an ATMega2560 based board. You will find it at the [http://www.flyduino.net Flyduino shop]. Here's a dedicated [http://www.rcgroups.com/forums/showthread.php?t=1381577 thread] about Flyduino products.
+
+ * Seeeduino Mega:
+an ATMega1280 based board, you will find it [http://www.seeedstudio.com/depot/seeeduino-v221-atmega-328p-p-669.html here].
+
+ * Black Vortex:
+it's a controller and IMU board, you will find it in this [http://www.ebay.com/sch/csg_and_rc_extreme/m.html?_nkw=&_armrs=1&_from=&_ipg=&_trksid=p3686 Ebay store].
+
+
+=== IMU / Sensor boards ==
+
+ * FreeIMU 0.3.5 BMP: it's a sensor board with 
+   * ITG3205 3-axis gyro 
+   * BMA180 3-axis accelerometer
+   * HMC5883L 3-axis magnetometer
+   * BMP085 absolute pressure sensor
+     You will find it at the [http://viacopter.eu/index.php Viacopter shop].
+
+ * FreeIMU 0.3.5 MS: it's a sensor board with
+   * ITG3200 3-axis gyro
+   * BMA 180 3-axis accelerometer
+   * HMC5883L 3-axis compass
+   * MS5611-01BA01 Highprecision altimeter
+     You will find it at the [http://viacopter.eu/index.php Viacopter shop].
+
+ * Allinone: it's a sensor board with
+   * ITG3200 3-axis gyro
+   * BMA180 3-axis accelerometer
+   * HMC5883L 3-axis magnetometer
+   * BMP085 absolute pressure sensor
+     you will find it in this [http://www.ebay.com/sch/csg_and_rc_extreme/m.html?_nkw=&_armrs=1&_from=&_ipg=&_trksid=p3686 Ebay store].
+
+ * Allinone2: it's a sensor board with
+   * ITG3200 3-axis gyro
+   * BMA180 3-axis accelerometer
+   * HMC5883L 3-axis magnetometer
+   * BMP085 absolute pressure sensor
+   * NEO-6Q/M GPS receiver 
+      you will find it in this [http://www.ebay.com/sch/csg_and_rc_extreme/m.html?_nkw=&_armrs=1&_from=&_ipg=&_trksid=p3686 Ebay store].
