@@ -26,3 +26,4 @@
  * Telemetry
  * Sonar
  * OSD
+ * LED warning for low battery
