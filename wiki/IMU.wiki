@@ -15,6 +15,7 @@
      You will find it at the [http://viacopter.eu/index.php Viacopter shop].
 
  * Allinone: it's a sensor board with
+http://megapirate.googlecode.com/svn/wiki/Images/allinone.JPG
    * ITG3200 3-axis gyro
    * BMA180 3-axis accelerometer
    * HMC5883L 3-axis magnetometer
@@ -22,6 +23,7 @@
      you will find it in this [http://www.ebay.com/sch/csg_and_rc_extreme/m.html?_nkw=&_armrs=1&_from=&_ipg=&_trksid=p3686 Ebay store].
 
  * Allinone2: it's a sensor board with
+http://megapirate.googlecode.com/svn/wiki/Images/AllInOne2.JPG
    * ITG3200 3-axis gyro
    * BMA180 3-axis accelerometer
    * HMC5883L 3-axis magnetometer
