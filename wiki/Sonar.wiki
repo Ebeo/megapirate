@@ -6,7 +6,7 @@ Here's a cheap solution, the [ultrasonic-wave-detector-ranging-module-distance-s
 
 http://www.goodluckbuy.com/images/detailed_images/sku_63979_0.jpg
 
-Connect the sonar to the Flyduino using PIN9 & PIN10:
+Connect the sonar to the Flyduino using PIN9 & PIN10, and GND and VCC to a free GND PIN and 5v PIN.
 
 http://megapirate.googlecode.com/svn/wiki/Images/sonarconnect.PNG
 
