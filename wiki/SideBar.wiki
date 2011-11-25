@@ -24,7 +24,7 @@
  * *Add-ons*
  * GPS
  * [Telemetry]
- * Sonar
+ * [Sonar]
  * Camera stabilization
  * OSD
  * LED warning for low battery
