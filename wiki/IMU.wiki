@@ -12,6 +12,7 @@
    * BMA 180 3-axis accelerometer
    * HMC5883L 3-axis compass
    * MS5611-01BA01 Highprecision altimeter
+http://code.google.com/p/megapirate/source/browse/wiki/Images/FreeIMU_0_3_5MS.jpg
      You will find it at the [http://viacopter.eu/index.php Viacopter shop].
 
  * Allinone: it's a sensor board with
