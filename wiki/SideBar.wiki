@@ -7,11 +7,11 @@
  * [Controller]
  * [IMU IMU / Sensor board]
  * [BOB Breakout Board]
- * ...
  * ----
  * *Softwares*
+ * Description
  * downloads
-  * setup
-  *...
+ * setup
+ *...
  * ----
  
