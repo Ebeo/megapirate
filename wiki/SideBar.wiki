@@ -16,7 +16,7 @@
  * [SoftDescription Description]
  * [SoftMod Modifications according to your hardware]
  * [CodeUpload Uploading code]
- * Mission Planner
+ * [MissionPlanner Mission Planner]
    * Running the setup
    * Configuration
    * CLI/Monitor tab
