@@ -1,4 +1,4 @@
-=== IMU / Sensor boards ==
+= IMU / Sensor boards =
 
  * FreeIMU 0.3.5 BMP: it's a sensor board with 
    * ITG3205 3-axis gyro 
