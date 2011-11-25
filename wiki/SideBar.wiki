@@ -19,7 +19,7 @@
  * [MissionPlanner Mission Planner]
    * [RunSetup Running the setup]
    * [Config Configuration]
-   * CLI/Monitor tab
+   * [CLI CLI/Monitor tab]
    * PID tweeking
  * ----
  * *Add-ons*
