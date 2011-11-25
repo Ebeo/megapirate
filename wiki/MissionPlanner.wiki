@@ -1,0 +1,5 @@
+= Mission Planner =
+
+The Mission Planner will be used to set up your copter and for telemetry. At this point, we will look only to the setup part.
+
+http://megapirate.googlecode.com/svn/wiki/Images/MPflightdata.PNG
