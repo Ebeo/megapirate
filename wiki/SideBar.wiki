@@ -23,7 +23,7 @@
  * ----
  * *Add-ons*
  * GPS
- * Telemetry
+ * [Telemetry]
  * Sonar
  * Camera stabilization
  * OSD
