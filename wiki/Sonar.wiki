@@ -2,7 +2,7 @@
 
 In order to have a better control of low altitude (<2m), you can add a sonar to your multicopter.
 
-Here's a cheap solution, the [ultrasonic-wave-detector-ranging-module-distance-sensor DYP-ME007 ultrasonic range finder].
+Here's a cheap solution, the [http://www.goodluckbuy.com/ultrasonic-wave-detector-ranging-module-distance-sensor.html DYP-ME007 ultrasonic range finder].
 
 http://www.goodluckbuy.com/images/detailed_images/sku_63979_0.jpg
 
