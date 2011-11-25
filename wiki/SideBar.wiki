@@ -9,7 +9,7 @@
  * [BOB Breakout Board]
  * Setups
    * [FlyFreeIMU Flyduino and FreeIMU]
-   * Flyduino and Allinone
+   * [FlyAllinone Flyduino and Allinone]
    * Black Vortex
  * ----
  * *Softwares*
