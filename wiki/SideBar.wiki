@@ -7,7 +7,7 @@
  * [Controller]
  * [IMU IMU / Sensor board]
  * [BOB Breakout Board]
- *Setups
+ * Setups
    * Flyduino and FreeIMU
      * Soldering and connections
      * Software's modification to do
