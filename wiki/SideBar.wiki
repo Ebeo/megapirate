@@ -5,7 +5,7 @@
  * ----
  * *Hardware*
  * [Controller]
- * IMU / Sensor board
+ * [IMU IMU / Sensor board]
   * ...
   * ...
   * ----
