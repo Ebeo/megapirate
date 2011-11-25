@@ -10,8 +10,13 @@
  * ----
  * *Softwares*
  * [SoftDescription Description]
- * downloads
- * setup
- *...
  * ----
- 
+ * *Setups*
+ * Flyduino and FreeIMU
+   * Soldering and connections
+   * Software's modification to do
+ * Flyduino and Allinone setup
+   * Soldering and connections
+   * Software's modification to do
+ * Black Vortex setup
+   * Software's modification to do
