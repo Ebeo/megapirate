@@ -4,4 +4,4 @@ In order to help doing a clean setup, you will find some nice breakout board, al
 
 At the Flyduino shop, you will find the [http://flyduino.net/V12-Flydusense-Senosr-Bob Flydusense V1.2] and the [http://flyduino.net/Flydusense-V2-with-LLC Flydusense V2].
 
-If you're using a Seeeduino board, this [http://viacopter.eu/index.php?page=shop.product_details&flypage=flypage.tpl&product_id=27&category_id=10&option=com_virtuemart&Itemid=53 board] could also be helpful, at the Viacopter shop.
+If you're using a Seeeduino board, this [http://viacopter.eu/index.php?page=shop.product_details&flypage=flypage.tpl&product_id=27&category_id=10&option=com_virtuemart&Itemid=53 board] could also be helpful, at the Viacopter shop. It's mainly dedicated to MultiWii but can be used with MegaPirate.
