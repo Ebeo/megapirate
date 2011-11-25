@@ -18,9 +18,8 @@
  * [CodeUpload Uploading code]
  * [MissionPlanner Mission Planner]
    * [RunSetup Running the setup]
-   * [Config Configuration]
+   * [Config Configuration and PID tuning]
    * [CLI CLI/Monitor tab]
-   * PID tweeking
  * ----
  * *Add-ons*
  * GPS
