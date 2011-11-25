@@ -22,3 +22,7 @@
    * CLI/Monitor tab
    * PID tweeking
  * ----
+ * *Add-ons*
+ * Telemetry
+ * Sonar
+ * OSD
