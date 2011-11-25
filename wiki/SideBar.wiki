@@ -18,7 +18,7 @@
  * [CodeUpload Uploading code]
  * [MissionPlanner Mission Planner]
    * [RunSetup Running the setup]
-   * Configuration
+   * [Config Configuration]
    * CLI/Monitor tab
    * PID tweeking
  * ----
