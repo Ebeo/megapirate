@@ -6,9 +6,9 @@
  * *Hardware*
  * [Controller]
  * [IMU IMU / Sensor board]
-  * ...
-  * ...
-  * ----
+ * Breakout Board
+ * ...
+ * ----
  * *Softwares*
  * downloads
   * setup
