@@ -17,7 +17,7 @@
  * [SoftMod Modifications according to your hardware]
  * [CodeUpload Uploading code]
  * [MissionPlanner Mission Planner]
-   * Running the setup
+   * [RunSetup Running the setup]
    * Configuration
    * CLI/Monitor tab
    * PID tweeking
