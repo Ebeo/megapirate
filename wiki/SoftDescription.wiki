@@ -1,0 +1,16 @@
+= Sofwares =
+
+You will need different softwares:
+
+*Arduino*
+
+This soft will allow you to compile and upload the code to your multicopter. Download it from [http://arduino.cc/en/Main/Software here]
+
+*!ArduPilot Mega Planner*
+
+The Planner (also known as Mission Planner) is used to set up your multicopter, get the telemtry data and use Mission Planning. Download it from !ArduPilot Mega repository [http://code.google.com/p/ardupilot-mega/downloads/list here]
+
+*!MegaPirate code*
+
+There are different versions, developped by different coders.
+You will find them under the [http://code.google.com/p/megapirate/downloads/list download section] of this site.
