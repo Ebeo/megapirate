@@ -80,3 +80,43 @@ and comment or uncomment the correct values, depending on your hardware.
 	CH7_ADC_FILTER (experimental)
 	*/
 }}}
+
+
+== RC channel mapping ==
+
+If needed, you can change your RC receiver channel mapping, by editing this file:
+
+arduino/libraries/APM_RC/APM_RC.cpp
+
+*Note*: _Default mapping is the !MultiWii style._
+
+
+|| *RC* || *Arduino* ||
+||CH1 (Roll)||A9||
+||CH2 (Pitch)||A10||
+||CH3 (Throttle)||A8||
+||CH4 (Yaw)||A11||
+||CH5 (AUX1)||A12||
+
+{{{
+//######################################################
+// ENABLE serial PPM receiver by uncommenting the line below
+
+//#define SERIAL_SUM
+
+
+//##################################################
+// Define one from your Receiver/Serial channels set. This can be used for both the PPM SUM and the normal point-to-point receiver to arduino connections
+
+//#define TX_set1				//Graupner/Spektrum					PITCH,YAW,THROTTLE,ROLL,AUX1,AUX2,CAMPITCH,CAMROLL
+
+//#define TX_standard				//standard  PPM layout Robbe/Hitec/Sanwa	ROLL,PITCH,THROTTLE,YAW,MODE,AUX2,CAMPITCH,CAMROLL
+
+//#define TX_standard_mode6				//standard, Mode channel is 6  PPM layout Robbe/Hitec/Sanwa	ROLL,PITCH,THROTTLE,YAW,AUX1,MODE,CAMPITCH,CAMROLL
+
+//#define TX_set2				// some Hitec/Sanwa/others				PITCH,ROLL,THROTTLE,YAW,AUX1,AUX2,CAMPITCH,CAMROLL
+
+#define TX_mwi				// MultiWii layout					ROLL,THROTTLE,PITCH,YAW,AUX1,AUX2,CAMPITCH,CAMROLL
+
+//##################################################
+}}}
