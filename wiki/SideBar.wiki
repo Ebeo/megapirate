@@ -16,7 +16,7 @@
  * ----
  * *Softwares*
  * [SoftDescription Description]
- * [SoftMod Modifications according to your hardware]
+ * [SoftMod Modifications accordingly to your hardware]
  * [CodeUpload Uploading code]
  * [MissionPlanner Mission Planner]
    * [RunSetup Running the setup]
