@@ -7,16 +7,22 @@
  * [Controller]
  * [IMU IMU / Sensor board]
  * [BOB Breakout Board]
+ *Setups
+   * Flyduino and FreeIMU
+     * Soldering and connections
+     * Software's modification to do
+   * Flyduino and Allinone setup
+     * Soldering and connections
+     * Software's modification to do
+   * Black Vortex setup
+     * Software's modification to do
  * ----
  * *Softwares*
  * [SoftDescription Description]
+ * Uploading code
+ * Mission Planner
+   * Running the setup
+   * Configuration
+   * CLI/Monitor tab
+   * PID tweeking
  * ----
- * *Setups*
- * Flyduino and FreeIMU
-   * Soldering and connections
-   * Software's modification to do
- * Flyduino and Allinone setup
-   * Soldering and connections
-   * Software's modification to do
- * Black Vortex setup
-   * Software's modification to do
