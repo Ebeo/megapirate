@@ -1,0 +1,82 @@
+= Software modification =
+
+Here are the different modifications that you've to do in the soft, depending on your hardware.
+
+
+== FreeIMU 0.3.5 =
+
+Edit the following file, with a source code editor, like [http://notepad-plus-plus.org/ Notepad++]:
+
+Arduino/libraries/AP_ADC/AP_ADC_ADS7844.cpp
+
+{{{
+//*****************************
+// Select your IMU board type:
+//#define FFIMU
+#define FREEIMU
+//#define ALLINONE
+//#define BMA_020 // do you have it?
+}}}
+
+== Allinone =
+
+Edit the following file, with a source code editor:
+
+Arduino/libraries/AP_ADC/AP_ADC_ADS7844.cpp
+
+{{{
+//*****************************
+// Select your IMU board type:
+//#define FFIMU
+//#define FREEIMU
+#define ALLINONE
+//#define BMA_020 // do you have it?
+}}}
+
+== For both board ==
+
+Edit the following file with a source code editor or directly in Arduino:
+
+Sketches/!MegaPirate 2.0.X/APM_config.h
+
+and comment or uncomment the correct values, depending on your hardware.
+
+{{{
+/ ********** Remember to the correct IMU sensor board in AP_ADC_ADS7844.cpp file **********
+
+#define GPS_PROTOCOL GPS_PROTOCOL_MTK16    //_NONE, _NMEA, MTK16 Specify GPS type for Memory saving (~5Kb less then AUTO)
+#define MAG_ORIENTATION	ROTATION_YAW_180
+#define AUTO_RESET_LOITER 1 	          // enables Loiter to reset it's current location based on stick input.
+#define GROUND_START_DELAY  5	          // give 'n' seconds between battery connection and IMU calibration. Gives time to flip the copter :)
+#define INSTANT_PWM ENABLED	          // Enabled = 50Hz to ESC's - Disabled = 400hz to ESC's
+
+#define FRAME_CONFIG HEXA_FRAME
+
+	/*
+	options:
+	QUAD_FRAME
+	TRI_FRAME
+	HEXA_FRAME
+	Y6_FRAME
+	OCTA_FRAME
+	HELI_FRAME
+	*/
+
+#define FRAME_ORIENTATION X_FRAME
+	/*
+	PLUS_FRAME
+	X_FRAME
+	V_FRAME
+	*/
+
+# define CH7_OPTION CH7_RTL		// do you have a 7th channel ?
+	/*
+	CH7_DO_NOTHING
+	CH7_SET_HOVER
+	CH7_FLIP
+	CH7_SIMPLE_MODE
+	CH7_RTL
+	CH7_AUTO_TRIM
+	CH7_ADC_FILTER (experimental)
+	*/
+}}}
