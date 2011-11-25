@@ -11,6 +11,7 @@
    * [FlyFreeIMU Flyduino and FreeIMU]
    * [FlyAllinone Flyduino and Allinone]
    * Black Vortex
+   * Motors layout
  * ----
  * *Softwares*
  * [SoftDescription Description]
