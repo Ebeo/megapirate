@@ -10,7 +10,7 @@
  * Setups
    * [FlyFreeIMU Flyduino and FreeIMU]
    * [FlyAllinone Flyduino and Allinone]
-   * Seeeduino
+   * [Seeeduino]
    * Black Vortex
    * [Motors Motors layout]
  * ----
