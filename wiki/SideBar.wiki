@@ -27,6 +27,6 @@
  * GPS
  * [Telemetry]
  * [Sonar]
- * Camera stabilization
+ * [CamStab Camera stabilization]
  * OSD
  * LED warning for low battery
