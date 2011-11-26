@@ -23,6 +23,6 @@ In APM_Config.h, modify your code accordingly to your module:
 {{{
 #define GPS_PROTOCOL GPS_PROTOCOL_AUTO
 //#define GPS_PROTOCOL GPS_PROTOCOL_NMEA
-//#define GPS_PROTOCOL GPS_PROTOCOL_UBLOX
+//#define GPS_PROTOCOL GPS_PROTOCOL_NONE
 //#define GPS_PROTOCOL GPS_PROTOCOL_MTK16		// Specify GPS type for Memory saving (~5Kb less then AUTO)
 }}}
