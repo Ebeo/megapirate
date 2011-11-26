@@ -1,0 +1,36 @@
+= Camera stabilization =
+
+If you want to use a stabilized camera gimbal, connect your Pitch servo to PIN44, your Roll servo to PIN45 and your Shutter servo to PIN46.
+
+This line is not powered, so connect a 5V input to BEC PIN near to PIN44, or to PIN46 if you don't use a shutter.
+
+http://megapirate.googlecode.com/svn/wiki/Images/final_flyduino_pinout_13-06-11.jpg
+
+
+In Sketches/MegaPirate/camera.pde, adjust your values if needed:
+{{{
+//#if CAMERA_STABILIZER == ENABLED
+
+static void init_camera()
+{
+	g.rc_camera_pitch.set_angle(4500);
+	g.rc_camera_pitch.radio_min 	= 1000;
+	g.rc_camera_pitch.radio_trim 	= 1500;
+	g.rc_camera_pitch.radio_max 	= 2000;
+	//g.rc_camera_pitch.set_reverse(1);
+
+	g.rc_camera_roll.set_angle(4500);
+	g.rc_camera_roll.radio_min 		= 1000;
+	g.rc_camera_roll.radio_trim 	= 1500;
+	g.rc_camera_roll.radio_max 		= 2000;
+
+	g.rc_camera_roll.set_type(RC_CHANNEL_ANGLE_RAW);
+	g.rc_camera_pitch.set_type(RC_CHANNEL_ANGLE_RAW);
+}
+}}}
+
+If your servos are reversed, uncomment this line for Pitch or add it for Roll:
+
+{{{
+//g.rc_camera_pitch.set_reverse(1);
+}}}
