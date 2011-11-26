@@ -1,8 +1,8 @@
 = GPS =
 
-To connect a GPS to your board and use features like Loiter (Position Hold) and Mission Planning, you will have to use the port Serial2 (both Flyduino V1.1 and V2.1), don't forget that pinout has changed for serials has changed with the new version.
+To connect a GPS to your board and use features like Loiter (Position Hold) and Mission Planning, you will have to use the port Serial2 (both Flyduino V1.1 and V2.1), don't forget that pinout for serials has changed with the new version.
 
-The code support NMEA, MediaTek and Ublox GPS.
+The code support NMEA and MediaTek modules.
 
 If you don't already have one, you can find a cheap one [http://ohararp.com/products.html here], the Ftech FMP04 GPS module (Mediatek MT3329):
 
