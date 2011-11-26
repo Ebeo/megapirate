@@ -14,6 +14,8 @@ Flyduino shop has developped a nice [http://flyduino.net/Flyduino-FMP04-GPS-Bob_
 
 http://flyduino.net/bilder/produkte/gross/Flyduino-FMP04-GPS-Bob.jpg
 
+If you're using this BOB, connect Tx(GPS) to Tx(Flyduino) and Rx(GPS) to Rx(Flyduino).
+
 == Configuration ==
 
 In APM_Config.h, modify your code accordingly to your module:
