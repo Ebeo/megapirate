@@ -22,7 +22,7 @@ Install Arduino in this folder and create a new folder called Sketches.
 
 http://megapirate.googlecode.com/svn/wiki/Images/Arduino01.PNG
 
-In Arduino folder, you will find a folder called libraries. Copy it into a safe place and delete it from here. You will maybe need to copy and paste some original files from arduino into your new libraries folder.
+In Arduino folder, you will find a folder called libraries. Copy it into a safe place and delete it from here. You will maybe need to copy and paste some original files from those libraries into your new libraries folder.
 
 When downloading the code, you will find in every zip file a folder called !MegaPirate and a folder called libraries.
  * Past the !MegaPirate folder into the Sketches folder
