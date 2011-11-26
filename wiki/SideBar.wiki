@@ -24,7 +24,7 @@
    * [CLI CLI/Monitor tab]
  * ----
  * *Add-ons*
- * GPS
+ * [GPS]
  * [Telemetry]
  * [Sonar]
  * [CamStab Camera stabilization]
