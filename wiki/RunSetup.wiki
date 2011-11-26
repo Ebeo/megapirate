@@ -1,6 +1,6 @@
 = Running the setup =
 
-click on the "software" tab and then on the green button "APM setup".
+click on the "firmware" tab and then on the green button "APM setup".
 
 http://megapirate.googlecode.com/svn/wiki/Images/MPconnect2.PNG
 
