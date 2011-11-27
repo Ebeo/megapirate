@@ -130,6 +130,7 @@ static void medium_loop()
 
  * Connect only one wire from Serial Tx1 (Flyduino) to Rx (OSD). Don't connect other wires (5V, GND, Tx2)
 
+ * In order to have the battery level displayed in the OSD, you will have to use a voltage divider and connect it to A0. See the [LEDwarning LED warning for low battery] page to find more informations.
 
 == OSD configuration ==
 
