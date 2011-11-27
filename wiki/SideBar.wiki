@@ -28,5 +28,5 @@
  * [Telemetry]
  * [Sonar]
  * [CamStab Camera stabilization]
- * OSD
+ * [OSD]
  * LED warning for low battery
