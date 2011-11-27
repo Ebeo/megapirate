@@ -29,4 +29,4 @@
  * [Sonar]
  * [CamStab Camera stabilization]
  * [OSD]
- * LED warning for low battery
+ * [LEDwarning LED warning for low battery]
