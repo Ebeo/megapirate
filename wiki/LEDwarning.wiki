@@ -28,4 +28,78 @@ If you're using the Flydusense V2, connect the PIN A1 to the CPU PIN, near the L
 
 == Sotfware modifications ==
 
-Under construction
+1. In !ArduCopterMega.pde
+ 
+Find the medium_loop() function and in it find case 4.  
+
+There is a call to the read_battery() function there.
+
+Insert a call to handle_relay_lights() right after the read_battery() call.
+ 
+{{{
+// This case controls the slow loop
+ 
+//---------------------------------
+ 
+case 4:
+ 
+  loop_step = 5;
+ 
+  medium_loopCounter = 0;
+ 
+
+  delta_ms_medium_loop = millis() - medium_loopTimer;
+ 
+  medium_loopTimer     = millis();
+ 
+
+  if (g.battery_monitoring != 0)
+ 
+{
+ 
+  read_battery();                               
+ 
+[COLOR: RED] handle_relay_lights();[/COLOR]
+ 
+  }
+}}}
+
+2. APM_config.h
+
+Add the following code :
+ 
+{{{
+#ifndef BATTERY_EVENT
+ # define BATTERY_EVENT ENABLED
+#endif
+
+#ifndef LOW_VOLTAGE
+ # define LOW_VOLTAGE 9.9
+#endif
+
+#ifndef MID_VOLTAGE
+ # define MID_VOLTAGE 10.6
+#endif
+
+#ifndef VOLT_DIV_RATIO
+ # define VOLT_DIV_RATIO 3.33
+#endif
+
+#ifndef INPUT_VOLTAGE
+ # define INPUT_VOLTAGE 5.26
+#endif
+ 
+ 
+ 
+// global variables for motor leds and battery monitoring through onboard relay 
+ 
+int rl_state   = 0 ;     // this global variable is used to save the on/off state of the relay
+ 
+int rl_counter = 0 ;    // this global variable is used for the flash rate timer
+}}}
+
+3. Add the [http://megapirate.googlecode.com/files/RunningLights.pde RunningLights.pde] to your !MegaPirate folder.
+
+4. Copy and paste to a safe place the original events.pde that you will found in your !MegaPirate folder, and paste this new [http://megapirate.googlecode.com/files/events.pde events.pde]
+
+5. You're done! Adjust the MID and LOW voltage values to your needs.
