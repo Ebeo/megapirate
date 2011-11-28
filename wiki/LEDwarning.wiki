@@ -1,1 +1,31 @@
-= Under construction =
+= LED warning for low battery =
+
+Based on the [http://diydrones.com/profiles/blogs/led-low-battery-warning-on excellent tutorial] from u4eake on DIYDrones forum, here's a quick how-to.
+
+== Hardware setup ==
+
+Here's a schematic (provided by thnilsen on RCGroups) showing how to make the voltage divider:
+
+http://megapirate.googlecode.com/svn/wiki/Images/VotageDivider.png
+
+It's also possible to use the [http://flyduino.net/Flydusense-V2-mit-LLC Flydusense V2], which is ready for the voltage divider and the LED driver.
+
+Now, you will need to make the LED driver.
+Here's a schematic (provided by aBUGSnightmare on RCGroups), using a [http://www.sparkfun.com/products/312 ULN2803] (transistor. Each output can handle up to 500mA: 
+
+http://megapirate.googlecode.com/svn/wiki/Images/2803led.jpg
+
+Here's a [http://oomlout.com/8TRA/8TRA-Guide.pdf nice guide] about the ULN2803.
+
+You can also used the built in LED driver of the Flydusense V2.
+
+*Connections between Flyduino and voltage divider/LED driver*
+
+Connect the output of your voltage divider to PIN A0 of the Flyduino.
+Then, connect the PIN A1 to the IN of the ULN2803 corresponding to the OUT driving your lEDs.
+
+If you're using the Flydusense V2, connect the PIN A1 to the CPU PIN, near the LED driver.
+
+== Sotfware modifications ==
+
+Under construction
