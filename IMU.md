@@ -1,0 +1,32 @@
+# IMU / Sensor boards #
+
+  * FreeIMU 0.3.5 BMP: it's a sensor board with ![http://megapirate.googlecode.com/svn/wiki/Images/FreeIMU_0_3_5BMP.jpg](http://megapirate.googlecode.com/svn/wiki/Images/FreeIMU_0_3_5BMP.jpg)
+    * ITG3205 3-axis gyro
+    * BMA180 3-axis accelerometer
+    * HMC5883L 3-axis magnetometer
+    * BMP085 absolute pressure sensor
+> > > You will find it at the [Viacopter shop](http://viacopter.eu/index.php).
+
+  * FreeIMU 0.3.5 MS: it's a sensor board with ![http://megapirate.googlecode.com/svn/wiki/Images/FreeIMU_0_3_5MS.jpg](http://megapirate.googlecode.com/svn/wiki/Images/FreeIMU_0_3_5MS.jpg)
+    * ITG3200 3-axis gyro
+    * BMA 180 3-axis accelerometer
+    * HMC5883L 3-axis compass
+    * MS5611-01BA01 Highprecision altimeter
+> > > You will find it at the [Viacopter shop](http://viacopter.eu/index.php).
+
+  * Allinone: it's a sensor board with
+http://megapirate.googlecode.com/svn/wiki/Images/allinone.JPG
+    * ITG3200 3-axis gyro
+    * BMA180 3-axis accelerometer
+    * HMC5883L 3-axis magnetometer
+    * BMP085 absolute pressure sensor
+> > > you will find it in this [Ebay store](http://www.ebay.com/sch/csg_and_rc_extreme/m.html?_nkw=&_armrs=1&_from=&_ipg=&_trksid=p3686).
+
+  * Allinone2: it's a sensor board with
+http://megapirate.googlecode.com/svn/wiki/Images/AllInOne2.JPG
+    * ITG3200 3-axis gyro
+    * BMA180 3-axis accelerometer
+    * HMC5883L 3-axis magnetometer
+    * BMP085 absolute pressure sensor
+    * NEO-6Q/M GPS receiver
+> > > you will find it in this [Ebay store](http://www.ebay.com/sch/csg_and_rc_extreme/m.html?_nkw=&_armrs=1&_from=&_ipg=&_trksid=p3686).

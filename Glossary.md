@@ -1,0 +1,16 @@
+# Information #
+
+You will find a lot of unkwnon words here, this page might help you.
+
+
+## Glossary ##
+
+  * **APM**: It comes from the original !DIYDrones hardware, ArduPilot Mega, which is not used with MegaPirate code.
+
+  * **MP**/**Mission Planner**: ArduPilot Mega Planner/Mission Planner. It's the Ground Station you will use to set up your multicopter. It's used with the Telemetry, too.
+
+  * **CLI**: Command Line Interpreter. It's like using the DOS on your PC. You might want to access to your controller board and make changes that the Planner's setup won't allow you. You will find more informations under the software section.
+
+  * **FTDI**: It's a serial port on your controller board. You will use it to load the code and/or run the setup.
+
+  * **BOB**: Breakout board.

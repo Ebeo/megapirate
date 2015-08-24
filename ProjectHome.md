@@ -1,0 +1,1 @@
+## Based on the original ArduCopter2 code, MegaPirate is intended to be used with alternative hardware, such as Flyduino (flight controller) and FreeIMU (Sensors board), and many others. ##

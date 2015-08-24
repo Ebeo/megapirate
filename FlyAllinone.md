@@ -1,0 +1,16 @@
+= Flyduino and allinone
+
+Here's the connection diagram of the Flyduino when used with MegaPirate code. You will find here all the pinout description and where to connect what.
+
+
+![http://megapirate.googlecode.com/svn/wiki/Images/final_flyduino_pinout_13-06-11.jpg](http://megapirate.googlecode.com/svn/wiki/Images/final_flyduino_pinout_13-06-11.jpg)
+
+  1. Connect your freeIMU to your Flydusense (and then to the Flyduino), or directly to the Flyduino, like this:
+
+| **Flyduino** | **Allinone** |
+|:-------------|:-------------|
+|GND           | GND          |
+|SDA           |SDA           |
+|SCL           |SCL           |
+|5V            |VIN           |
+|Serial Rx2    |GPS Tx        |

@@ -1,0 +1,9 @@
+# Configuration #
+
+The "configuration" tab is where you will tune your copter to make it flying well.
+
+http://megapirate.googlecode.com/svn/wiki/Images/MPconfig.PNG
+
+Joebarteam, aka Menno, has made a very nice tutorial on RCGroups on how to tune your copter.
+
+[Here's the link to.](http://www.rcgroups.com/forums/showthread.php?t=1521520)

@@ -1,0 +1,123 @@
+# Software modification #
+
+Here are the different modifications that you've to do in the soft, depending on your hardware.
+
+
+## FreeIMU 0.3.5 ##
+
+Edit the following file, with a source code editor, like [Notepad++](http://notepad-plus-plus.org/):
+
+Arduino/libraries/AP\_ADC/AP\_ADC\_ADS7844.cpp
+
+```
+//*****************************
+// Select your IMU board type:
+//#define FFIMU
+#define FREEIMU
+//#define ALLINONE
+//#define BMA_020 // do you have it?
+```
+
+## Allinone ##
+
+Edit the following file, with a source code editor:
+
+Arduino/libraries/AP\_ADC/AP\_ADC\_ADS7844.cpp
+
+```
+//*****************************
+// Select your IMU board type:
+//#define FFIMU
+//#define FREEIMU
+#define ALLINONE
+//#define BMA_020 // do you have it?
+```
+
+## For both board ##
+
+Edit the following file with a source code editor or directly in Arduino:
+
+Sketches/MegaPirate 2.0.X/APM\_config.h
+
+and comment or uncomment the correct values, depending on your hardware.
+
+```
+/ ********** Remember to the correct IMU sensor board in AP_ADC_ADS7844.cpp file **********
+
+#define GPS_PROTOCOL GPS_PROTOCOL_MTK16    //_NONE, _NMEA, MTK16 Specify GPS type for Memory saving (~5Kb less then AUTO)
+#define MAG_ORIENTATION	ROTATION_YAW_180
+#define AUTO_RESET_LOITER 1 	          // enables Loiter to reset it's current location based on stick input.
+#define GROUND_START_DELAY  5	          // give 'n' seconds between battery connection and IMU calibration. Gives time to flip the copter :)
+#define INSTANT_PWM ENABLED	          // Enabled = 50Hz to ESC's - Disabled = 400hz to ESC's
+
+#define FRAME_CONFIG HEXA_FRAME
+
+	/*
+	options:
+	QUAD_FRAME
+	TRI_FRAME
+	HEXA_FRAME
+	Y6_FRAME
+	OCTA_FRAME
+	HELI_FRAME
+	*/
+
+#define FRAME_ORIENTATION X_FRAME
+	/*
+	PLUS_FRAME
+	X_FRAME
+	V_FRAME
+	*/
+
+# define CH7_OPTION CH7_RTL		// do you have a 7th channel ?
+	/*
+	CH7_DO_NOTHING
+	CH7_SET_HOVER
+	CH7_FLIP
+	CH7_SIMPLE_MODE
+	CH7_RTL
+	CH7_AUTO_TRIM
+	CH7_ADC_FILTER (experimental)
+	*/
+```
+
+
+## RC channel mapping ##
+
+If needed, you can change your RC receiver channel mapping, by editing this file:
+
+arduino/libraries/APM\_RC/APM\_RC.cpp
+
+**Note**: _Default mapping is the MultiWii style._
+
+
+| **RC** | **Arduino** |
+|:-------|:------------|
+|CH1 (Roll)|A9           |
+|CH2 (Pitch)|A10          |
+|CH3 (Throttle)|A8           |
+|CH4 (Yaw)|A11          |
+|CH5 (AUX1)|A12          |
+
+```
+//######################################################
+// ENABLE serial PPM receiver by uncommenting the line below
+
+//#define SERIAL_SUM
+
+
+//##################################################
+// Define one from your Receiver/Serial channels set. This can be used for both the PPM SUM and the normal point-to-point receiver to arduino connections
+
+//#define TX_set1				//Graupner/Spektrum					PITCH,YAW,THROTTLE,ROLL,AUX1,AUX2,CAMPITCH,CAMROLL
+
+//#define TX_standard				//standard  PPM layout Robbe/Hitec/Sanwa	ROLL,PITCH,THROTTLE,YAW,MODE,AUX2,CAMPITCH,CAMROLL
+
+//#define TX_standard_mode6				//standard, Mode channel is 6  PPM layout Robbe/Hitec/Sanwa	ROLL,PITCH,THROTTLE,YAW,AUX1,MODE,CAMPITCH,CAMROLL
+
+//#define TX_set2				// some Hitec/Sanwa/others				PITCH,ROLL,THROTTLE,YAW,AUX1,AUX2,CAMPITCH,CAMROLL
+
+#define TX_mwi				// MultiWii layout					ROLL,THROTTLE,PITCH,YAW,AUX1,AUX2,CAMPITCH,CAMROLL
+
+//##################################################
+```

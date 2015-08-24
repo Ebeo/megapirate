@@ -1,0 +1,28 @@
+# GPS #
+
+To connect a GPS to your board and use features like Loiter (Position Hold) and Mission Planning, you will have to use the port Serial2 (both Flyduino V1.1 and V2.1), don't forget that pinout for serials has changed with the new version.
+
+The code support NMEA and MediaTek modules.
+
+If you don't already have one, you can find a cheap one [here](http://ohararp.com/products.html), the Ftech FMP04 GPS module (Mediatek MT3329):
+
+![http://www.f-tech.com.tw/uploads/img4a375f2d67003.jpg](http://www.f-tech.com.tw/uploads/img4a375f2d67003.jpg)
+
+![http://static.rcgroups.net/forums/attachments/3/1/6/3/0/5/a4101667-30-FMP04%20GPS%20pinout.jpg](http://static.rcgroups.net/forums/attachments/3/1/6/3/0/5/a4101667-30-FMP04%20GPS%20pinout.jpg)
+
+Flyduino shop has developped a nice [breakout board](http://flyduino.net/Flyduino-FMP04-GPS-Bob_1) for this module:
+
+![http://flyduino.net/bilder/produkte/gross/Flyduino-FMP04-GPS-Bob.jpg](http://flyduino.net/bilder/produkte/gross/Flyduino-FMP04-GPS-Bob.jpg)
+
+If you're using this BOB, connect Tx(GPS) to Tx(Flyduino) and Rx(GPS) to Rx(Flyduino).
+
+## Configuration ##
+
+In APM\_Config.h, modify your code accordingly to your module:
+
+```
+#define GPS_PROTOCOL GPS_PROTOCOL_AUTO
+//#define GPS_PROTOCOL GPS_PROTOCOL_NMEA
+//#define GPS_PROTOCOL GPS_PROTOCOL_NONE
+//#define GPS_PROTOCOL GPS_PROTOCOL_MTK16		// Specify GPS type for Memory saving (~5Kb less then AUTO)
+```
